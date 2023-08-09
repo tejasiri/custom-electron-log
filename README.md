@@ -1,4 +1,8 @@
-# electron-log
+# custom-electron-log
+https://github.com/tejasiri/custom-electron-log
+
+
+Just a simple logging module for your Electron application forked from electron-log (custom-electron-log)
 [![Tests](https://github.com/megahertz/electron-log/actions/workflows/tests.yml/badge.svg)](https://github.com/megahertz/electron-log/actions/workflows/tests.yml)
 [![NPM version](https://badge.fury.io/js/electron-log.svg)](https://badge.fury.io/js/electron-log)
 [![Downloads](https://img.shields.io/npm/dw/electron-log)](https://img.shields.io/npm/dw/electron-log)

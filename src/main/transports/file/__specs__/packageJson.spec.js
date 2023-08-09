@@ -8,7 +8,7 @@ describe('transports/file/packageJson', () => {
     it('should resolve data when child path specified', () => {
       const json = packageJsonSpec.tryReadJsonAt(__filename);
 
-      expect(json.name).toBe('electron-log');
+      expect(json.name).toBe('custom-electron-log');
       expect(json.version).toMatch(/\d+\.\d+\.\d+/);
     });
 
@@ -16,7 +16,7 @@ describe('transports/file/packageJson', () => {
       const rootPath = path.join(__dirname, '../../../..');
       const json = packageJsonSpec.tryReadJsonAt(rootPath);
 
-      expect(json.name).toBe('electron-log');
+      expect(json.name).toBe('custom-electron-log');
       expect(json.version).toMatch(/\d+\.\d+\.\d+/);
     });
 

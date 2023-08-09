@@ -1,7 +1,7 @@
 {
-  "name": "electron-log",
-  "version": "5.0.0-beta.25",
-  "description": "Just a simple logging module for your Electron application",
+  "name": "custom-electron-log",
+  "version": "1.0.0",
+  "description": "Just a simple logging module for your Electron application forked from electron-log (custom-electron-log)",
   "main": "src/index.js",
   "browser": "src/renderer/index.js",
   "engines": {
@@ -18,7 +18,7 @@
     "preversion": "npm run test:full"
   },
   "typings": "src/index.d.ts",
-  "repository": "megahertz/electron-log",
+  "repository": "tejasiri/custom-electron-log",
   "files": [
     "!**/__specs__",
     "!**/.*",
@@ -41,10 +41,10 @@
     "linux",
     "desktop"
   ],
-  "author": "Alexey Prokhorov",
+  "author": "Siva Teja Pesala",
   "license": "MIT",
-  "bugs": "https://github.com/megahertz/electron-log/issues",
-  "homepage": "https://github.com/megahertz/electron-log#readme",
+  "bugs": "https://github.com/tejasiri/custom-electron-log/issues",
+  "homepage": "https://github.com/tejasiri/custom-electron-log#readme",
   "devDependencies": {
     "@types/node": "^14.14.6",
     "electron": "*",
